@@ -7,7 +7,7 @@
 git clone https://github.com/tzembo/la-gregueria-virtual
 python utils/seed_db.py
 python utils/create_index.py
-python app.py
+./gunicorn_start
 
 # open a web browser to localhost:5000
 ```
