@@ -1,0 +1,20 @@
+#!/bin/bash
+
+NAME="la-gregueria-virtual"
+FLASKDIR=~/Documents/la-gregueria-virtual
+VENVDIR=~/Documents/la-gregueria-virtual/flask_env
+
+
+echo "Starting $NAME"
+
+# activate the virtualenv
+cd $VENVDIR
+source bin/activate
+cd ..
+
+export PYTHONPATH=$FLASKDIR:$PYTHONPATH
+
+# Start your unicorn
+exec gunicorn -b 0.0.0.0:5000 server:app \
+  --name $NAME \
+  --log-level debug

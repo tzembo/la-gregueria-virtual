@@ -1,0 +1,412 @@
+{
+  "nodes": [
+    {
+      "id": "humano",
+      "group": 1,
+      "root": true
+    },
+    {
+      "id": "vida",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "muerte",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "mente",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "corpóreo",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "género",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "edad",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "personalidad",
+      "group": 1,
+      "root": false
+
+    },
+    {
+      "id": "violencia",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "experiencia",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "cinismo",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "humor",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "humor-negro",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "sentimientos",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "amor",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "tristeza",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "onírico",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "masculino",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "femenino",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "mujer",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "niñez",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "vejez",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "infantil",
+      "group": 1,
+      "root": false
+    },
+    {
+      "id": "ambientes",
+      "group": 2,
+      "root": true
+    },
+    {
+      "id": "lugares",
+      "group": 2,
+      "root": false
+    },     
+    {
+      "id": "negocios",
+      "group": 2,
+      "root": false
+    },
+    {
+      "id": "paisajes",
+      "group": 2,
+      "root": false
+    }, 
+    {
+      "id": "casa",
+      "group": 2,
+      "root": false
+    }, 
+    {
+      "id": "cocina",
+      "group": 2,
+      "root": false
+    }, 
+    {
+      "id": "baño",
+      "group": 2,
+      "root": false
+    }, 
+    {
+      "id": "campo",
+      "group": 2,
+      "root": false
+    }, 
+    {
+      "id": "ciudad",
+      "group": 2,
+      "root": false
+    }, 
+    {
+      "id": "cementerio",
+      "group": 2,
+      "root": false
+    }, 
+    {
+      "id": "banco",
+      "group": 2,
+      "root": false
+    }, 
+    {
+      "id": "estación-de-trenes",
+      "group": 2,
+      "root": false
+    }, 
+    {
+      "id": "peluquería",
+      "group": 2,
+      "root": false
+    }, 
+    {
+      "id": "mar",
+      "group": 2,
+      "root": false
+    }, 
+    {
+      "id": "cielo",
+      "group": 2,
+      "root": false
+    }
+  ],
+  "links": [
+    {
+      "source": "humano",
+      "target": "vida",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "humano",
+      "target": "muerte",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "vida",
+      "target": "mente",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "vida",
+      "target": "corpóreo",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "vida",
+      "target": "género",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "vida",
+      "target": "edad",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "mente",
+      "target": "personalidad",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "personalidad",
+      "target": "violencia",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "personalidad",
+      "target": "experiencia",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "personalidad",
+      "target": "cinismo",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "personalidad",
+      "target": "humor",
+      "value": 1
+    },
+    {
+      "source": "humor",
+      "target": "humor-negro",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "mente",
+      "target": "onírico",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "mente",
+      "target": "sentimientos",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "sentimientos",
+      "target": "amor",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "sentimientos",
+      "target": "tristeza",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "género",
+      "target": "masculino",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "género",
+      "target": "femenino",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "femenino",
+      "target": "mujer",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "edad",
+      "target": "vejez",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "edad",
+      "target": "niñez",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "niñez",
+      "target": "infantil",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "source": "ambientes",
+      "target": "lugares",
+      "group": 2,
+      "value": 1
+    },
+    {
+      "source": "ambientes",
+      "target": "negocios",
+      "group": 2,
+      "value": 1
+    },
+    {
+      "source": "ambientes",
+      "target": "paisajes",
+      "group": 2,
+      "value": 1
+    },
+    {
+      "source": "lugares",
+      "target": "casa",
+      "group": 2,
+      "value": 1
+    },
+    {
+      "source": "casa",
+      "target": "cocina",
+      "group": 2,
+      "value": 1
+    },
+    {
+      "source": "casa",
+      "target": "baño",
+      "group": 2,
+      "value": 1
+    },
+    {
+      "source": "lugares",
+      "target": "campo",
+      "group": 2,
+      "value": 1
+    },
+    {
+      "source": "lugares",
+      "target": "ciudad",
+      "group": 2,
+      "value": 1
+    },
+    {
+      "source": "lugares",
+      "target": "cementerio",
+      "group": 2,
+      "value": 1
+    },
+    {
+      "source": "negocios",
+      "target": "banco",
+      "group": 2,
+      "value": 1
+    },
+    {
+      "source": "negocios",
+      "target": "estación-de-trenes",
+      "group": 2,
+      "value": 1
+    },
+    {
+      "source": "negocios",
+      "target": "peluquería",
+      "group": 2,
+      "value": 1
+    },
+    {
+      "source": "paisajes",
+      "target": "mar",
+      "group": 2,
+      "value": 1
+    },
+    {
+      "source": "paisajes",
+      "target": "cielo",
+      "group": 2,
+      "value": 1
+    }
+  ]
+}

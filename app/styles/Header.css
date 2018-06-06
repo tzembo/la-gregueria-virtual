@@ -1,0 +1,38 @@
+.header {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 800;
+	color: black;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.header:hover {
+	color: black;
+	font-size: 30px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.navigation {
+  	display: flex;
+  	justify-content: flex-start;
+  	margin-bottom: 1.5em;
+}
+
+.header-link {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 500;
+	margin-right: 7px;
+	color: gray;
+	font-size: 16px;
+}
+
+.header-link:hover {
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+}
+
+.header-active {
+	color: black !important;
+}

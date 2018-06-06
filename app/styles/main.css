@@ -1,0 +1,61 @@
+p.logo {
+	color: black;
+	margin-right: 2em
+}
+
+.link {
+	color: gray;
+	margin-left: 1em;
+}
+
+.about {
+	padding: 1.5em;
+}
+
+.heading {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 800;
+	font-size: 30px;
+	margin-bottom: 0.5em;
+}
+
+.content {
+	margin-bottom: 1em;
+}
+
+.left {
+	width: 35%;
+	padding: 3em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	min-width: 360px;
+	float: left;
+	height: 100%;
+}
+
+.right {
+	height: 100vh;
+	top: 0vh;
+}
+
+@media (max-width: 720px) {
+	.left {
+		width: 100%;
+		height: auto;
+
+	}
+	.right {
+		position: static;
+		width: 100%;
+		height: auto;
+	}
+	body {
+		overflow: auto;
+	}
+
+	div.greguerias {
+		height: auto;
+		overflow: none;
+		background-color: blue;
+	}
+}

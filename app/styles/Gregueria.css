@@ -1,0 +1,20 @@
+.gregueria {
+	margin-bottom: 1em;
+}
+
+.gregueria-body:hover {
+	cursor: pointer;
+}
+
+.tag:hover {
+	cursor: pointer;
+}
+
+.fixed-card {
+	position: fixed !important;
+	display: none;
+}
+
+.highlight-result {
+	background-color: #FFFF00
+}

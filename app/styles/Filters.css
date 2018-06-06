@@ -1,0 +1,13 @@
+.wc {
+	box-sizing: border-box;
+	width: 50%;
+
+}
+
+.wc-min {
+	margin-right: 1em;
+}
+
+.wc-max {
+	margin-left: 1em;
+}

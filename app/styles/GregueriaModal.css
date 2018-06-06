@@ -1,0 +1,38 @@
+.gregueria-header {
+	height: 50px;
+	width: 100%;
+
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+	border-bottom: 2px black solid;
+
+	font-family: 'Alegreya Sans', sans-serif;
+
+	cursor: pointer;
+}
+
+.gregueria-content {
+	position: absolute;
+	top: 50px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow-y: auto;
+}
+
+.gregueria-body {
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.gregueria-similar {
+	background-color: #e5e5e5;
+	padding: 2em;
+}
+
+

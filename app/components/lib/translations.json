@@ -1,0 +1,15 @@
+{
+	"en": {
+		"header": {
+			"browse": "Browse",
+			"map": "Map",
+			"topics": "Topics",
+			"about": "About",
+			"lang": "Español"
+		},
+		"home": {
+			"browse": "Start searching!",
+			"topics": "Browse topics",
+		}
+	}
+}
