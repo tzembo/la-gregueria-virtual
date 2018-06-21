@@ -20,7 +20,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <Link to="/" className="header"><div>La Gregueria Virtual</div></Link>
+        <Link to="/" className="header"><div>La Greguería Virtual</div></Link>
         <div className="navigation">
             <NavLink className="header-link" activeClassName="header-active" to="/search?view=text">Browse</NavLink>
             <NavLink className="header-link" activeClassName="header-active" to="/search?view=map">Map</NavLink>
